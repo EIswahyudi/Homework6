@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    background-color: rgb(75, 70, 70);
+    color: white;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+
+  button {
+      background-color:#2196F3;
+  }
+
+  .forecast-box {
+      color: white;
+      background-color: blue;
+      float: right;
+  }
+
+  td {
+      border-style: solid;
+      text-align: right;
+  }
+
+  #cities-view {
+      border-style: hidden solid;
+  }
+
+  h5 {
+      text-emphasis: hidden;
+      margin: 0px 0px 10px 280px;
+  }
+
+  #cities-list {
+      font-weight: bold;
+      border: hidden solid;
+  }
+  
