@@ -137,18 +137,3 @@ function getForecast(city) {
     })
 }
 
-function saveHistory(city) { 
-    
-    if (localStorage.getItem("searchHistory")) {
-        
-        var history = JSON.parse(localStorage.getItem("searchHistory")); 
-      
-        history.push(city);
-       
-        localStorage.setItem("searchHistory", JSON.stringify(history));
-    } else {
-        
-        localStorage.setItem("searchHistory", JSON.stringify([city]));
-    }   
-    makeButtons();     
-};
