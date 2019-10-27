@@ -1,7 +1,7 @@
 # html setup for Weather Dashboard 
-## Creates template/layout from Bootstrap 
-### Gathers data from Weather API 
-#### local storage for cities list and cities view (#cities-list & cities-view)
+# Creates template/layout from Bootstrap 
+# Gathers data from Weather API 
+# local storage for cities list and cities view (#cities-list & cities-view)
 
 <!DOCTYPE html>
 <html lang="en">
